@@ -83,6 +83,7 @@ public class BookingService {
                         b.getEventDate(),
                         b.getStartTime(),
                         b.getEndTime(),
+                        b.getEventName(),
                         b.getStatus()
                 ))
                 .toList();
@@ -96,6 +97,7 @@ public class BookingService {
                 .map(b -> new RecentEnquiryDTO(
                         b.getCustomerName(),
                         b.getPhoneNumber(),
+                        b.getEventName(),
                         b.getEventDate(),
                         b.getCreatedAt(),
                         b.getStatus()
