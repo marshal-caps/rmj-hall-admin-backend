@@ -47,6 +47,7 @@ public class BookingService {
         }
         BookingModel bm = new BookingModel();
         bm.setCustomerName(enquiry.getCustomerName());
+        bm.setEventName(enquiry.getEventName());
         bm.setPhoneNumber(enquiry.getPhoneNumber());
         bm.setAddress(enquiry.getAddress());
         bm.setEventDate(enquiry.getEventDate());

@@ -16,5 +16,6 @@ public class UpcomingBookingDTO {
     private LocalDate eventDate;
     private LocalTime startTime;
     private LocalTime endTime;
+    private String eventName;
     private BookingStatus status;
 }

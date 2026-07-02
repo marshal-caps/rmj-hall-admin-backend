@@ -19,6 +19,7 @@ public class BookingModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long bookingId;
     private String customerName;
+    private String eventName;
     private boolean deleted;
     private String phoneNumber;
     private String address;

@@ -15,6 +15,7 @@ public class RecentEnquiryDTO {
 
     private String customerName;
     private String phoneNumber;
+    private String eventName;
     private LocalDate eventDate;
     private LocalDateTime createdAt;
     private BookingStatus status;

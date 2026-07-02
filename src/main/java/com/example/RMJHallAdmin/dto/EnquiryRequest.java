@@ -15,6 +15,7 @@ public class EnquiryRequest {
     private String customerName;
     private String phoneNumber;
     private String address;
+    private String eventName;
     private LocalDate eventDate;
     private LocalTime startTime;
     private LocalTime endTime;
